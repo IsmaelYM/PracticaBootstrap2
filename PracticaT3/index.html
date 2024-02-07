@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblion</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="./assets/css/estilos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="bg-dark text-white margen">
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top py-2 px-md-4 navbar-dark-custom">
+            <div class="container">
+
+                <button class="navbar-toggler order-first" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <a class="navbar-brand mx-auto mx-md-0" href="#">
+                    <img src="./assets/img/logoNav2.png" width="95" alt="Logo">
+                </a>
+
+                <div class="collapse navbar-collapse justify-content-md-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link mx-md-2 text-dark" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-md-2 text-dark" href="./biblioteca.html">Biblioteca</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-md-2 text-dark" href="./suscripcion.html">Suscripción</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-md-2 text-dark" href="./quienesSomos.html">Quiénes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-md-2 text-dark" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <a class="btn btn-dark text-white px-3 py-1 ml-md-auto" href="./suscripcion.html" style="border-radius: 8px;">Iniciar
+                    Sesión</a>
+            </div>
+        </nav>
+
+        <div class="container mt-5 mx-auto">
+
+            <!-- Portada e introduccion -->
+            <div class="row">
+                <div class="col-12 px-0 border">
+                    <img src="./assets/img/portadaInicio.jpg" class="img-fluid w-100 rounded" alt="Portada">
+                </div>
+            </div>
+
+          
+            <div class="row mt-4 my-4">
+                <div class="col-12 text-center lead">
+                    <h2 class="font-weight-bold">En Biblion...</h2>
+                    <p>no te quedas sin palabras.</p>
+                </div>
+            </div>
+            <hr class="my-4 bg-white">
+        </div>
+            <!-- Caracteristicas -->
+            <h2 class="text-center mb-4 py-2">¿Qué ofrecemos?</h2>
+            <div class="container marketing">
+                <div class="row featurette">
+                    <div class="col-md-7 pt-md-7 my-3 py-4 mt-4">
+                        <div class="d-flex align-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#d1d16d"
+                                class="bi bi-book-half" viewBox="0 0 16 16">
+                                <path
+                                    d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783" />
+                            </svg>
+                            <h3 class="featurette-heading ml-3 py-2">Amplío Catalogo</h3>
+                        </div>
+                        <p class="lead">Ofrece una extensa selección de libros para alquiler, venta y compra, abarcando
+                            géneros, autores y temáticas variadas.
+                        </p>
+                    </div>
+                    <div class="col-md-5 d-flex justify-content-center align-items-center">
+                        <div class="col-md-6 text-center ">
+                            <img src="./assets/img/caract1.png" class="img-fluid rounded-lg custom-img" alt="Imagen Bloque 2">
+                        </div>
+                    </div>
+                </div>
+                <!-- Caracteristica 2 -->
+                <div class="row featurette">
+                    <div class="col-md-7 order-md-2 pt-md-7 my-4 py-4">
+                        <div class="d-flex align-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#d1d16d"
+                                class="bi bi-palette2" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 .5A.5.5 0 0 1 .5 0h5a.5.5 0 0 1 .5.5v5.277l4.147-4.131a.5.5 0 0 1 .707 0l3.535 3.536a.5.5 0 0 1 0 .708L10.261 10H15.5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5H3a3 3 0 0 1-2.121-.879A3 3 0 0 1 0 13.044m6-.21 7.328-7.3-2.829-2.828L6 7.188zM4.5 13a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0M15 15v-4H9.258l-4.015 4zM0 .5v12.495zm0 12.495V13z" />
+                            </svg>
+                            <h3 class="featurette-heading ml-3 py-2">Flexibilidad de Servicio</h3>
+                        </div>
+                        <p class="lead">Proporciona opciones flexibles, incluyendo alquiler de libros físicos y
+                            digitales, venta de libros nuevos y usados, con métodos de pago diversos y opciones de envío
+                            rápido.
+                        </p>
+                    </div>
+                    <div class="col-md-5 order-md-1 d-flex justify-content-center align-items-center">
+                        <div class="col-md-6 text-center">
+                            <img src="./assets/img/caract2.png" class="img-fluid rounded-lg custom-img" alt="Imagen Bloque 2">
+                        </div>
+                    </div>
+                </div>
+                <!-- Caracteristica 3 -->
+                <div class="row featurette">
+                    <div class="col-md-7 pt-md-7 my-3 py-3">
+                        <div class="d-flex align-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#d1d16d"
+                                class="bi bi-star-half" viewBox="0 0 16 16">
+                                <path
+                                    d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z" />
+                            </svg>
+                            <h3 class="featurette-heading ml-3 py-2">Recomendaciones Personalizadas</h3>
+                        </div>
+                        <p class="lead">Implementa un sistema inteligente de recomendaciones basado en las preferencias
+                            del usuario, facilitando la exploración y ofreciendo ofertas exclusivas</p>
+                    </div>
+                    <div class="col-md-5 d-flex justify-content-center align-items-center">
+                        <div class="col-md-6 text-center">
+                            <img src="./assets/img/caract3.jpg" class="img-fluid rounded-lg custom-img" alt="Imagen Bloque 2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Suscripción-->
+
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-lg-6 mx-auto text-center my-4 py-3 border border-warning">
+                        <h2>¡Suscríbete!</h2>
+                        <p>Date de alta en nuestra plataforma y empieza a disfrutar de todas las ventajas.</p>
+                        <a href="./suscripcion.html" class="btn btn-warning btn-lg">Suscribirse</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer class="container-fluid py-1">
+        <div class="d-flex align-items-center">
+            <img src="./assets/img/logoNav.png" class="img-fluid" alt="Logo" style="max-width: 25px; height: auto;">
+            <p class="ms-3 mb-0 mx-4">© Ismael El Younsi - 2024</p>
+        </div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
